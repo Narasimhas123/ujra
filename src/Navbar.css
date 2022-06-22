@@ -1,0 +1,73 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  align-items: center;
+  height: 100px;
+  box-shadow: 0px 0px 10px 0px ;
+}
+.logo{
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 13px 10px;
+  border-radius: 30px;
+}
+.navbar-btns{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-left: 380px;
+}
+.insure, .loan, .claim, .policy{
+  border: none;
+  border-radius: 8px;
+  height: fit-content;
+  width: fit-content;
+  margin: 0px 10px;
+  padding: 10px 18px;
+  font-size:15px;
+}
+.login{
+  display: flex;
+  align-items: center;
+}
+.login-btn, .headeset{
+  margin: 4px;
+  height: 30px;
+}
+.login-btn{
+  padding: 10px;
+  color: white;
+  background-color:black;
+  border-radius: 8px;
+  font-size: 16px;
+  padding:0px 20px;
+   display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.headeset{
+  background-color: rgb(238, 235, 235);
+  border-radius: 8px;
+}
+.policy-div, .loan-div, .claim-div{
+  position: relative;
+  
+}
+.lock1, .lock2, .lock3{
+  position: absolute;
+  top: -8px;
+  right: 6px;
+  border:1px solid rgb(172, 167, 167);
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 3px;
+  
+}
